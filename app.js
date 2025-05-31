@@ -42,6 +42,8 @@ const store = MongoStore.create({
 
 store.on("error", ()=>{
   console.log("Error in moongo session store.", error);
+  console.log("Error in moongo session store.", error);
+  
 })
 
 const sessionOptions = {
